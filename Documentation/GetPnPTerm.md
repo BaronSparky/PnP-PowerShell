@@ -31,12 +31,12 @@ Returns all term in the termset "Departments" which is in the group "Corporate" 
 
 ### Example 2
 ```powershell
-PS:> Get-PnPTermSet -Identity "Finance" -TermSet "Departments" -TermGroup "Corporate"
+PS:> Get-PnPTerm -Identity "Finance" -TermSet "Departments" -TermGroup "Corporate"
 ```
 Returns the term named "Finance" in the termset "Departments" from the termgroup called "Corporate" from the site collection termstore
 
 ### Example 3
 ```powershell
-PS:> Get-PnPTermSet -Identity ab2af486-e097-4b4a-9444-527b251f1f8d -TermSet "Departments" -TermGroup "Corporate"
+PS:> Get-PnPTerm -Identity ab2af486-e097-4b4a-9444-527b251f1f8d -TermSet "Departments" -TermGroup "Corporate"
 ```
-Returns the termset named with the given id, from the "Departments" from termgroup called "Corporate" from the site collection termstore
+Returns the term named with the given id, from the "Departments" from termgroup called "Corporate" from the site collection termstore
